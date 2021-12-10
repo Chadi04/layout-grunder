@@ -1,0 +1,43 @@
+body {
+  background-color: aqua;
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-family: sans-serif verdana;
+  background: brown;
+  border: solid black;
+}
+
+article {
+  font-family: sans-serif verdana;
+  bodrder: solid black;
+  background-color: brown;
+  margin: 10px;
+  padding: 50px;
+}
+
+section {
+  font-family: sans-serif verdana;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+footer {
+  font-family: sans-serif verdana;
+  border: solid black;
+  background-color: brown;
+  margin: 10px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
